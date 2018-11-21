@@ -2,11 +2,11 @@ apiVersion: v1
 entries:
   cassandra:
   - appVersion: 3.11.2
-    created: 2018-11-21T18:03:38.48140728Z
+    created: 2018-11-21T18:16:33.758420225Z
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure.
-    digest: 38cf26e06bc8c63340c91fab65f3e089ae9299337810f86333c6c62764fe430e
+    digest: be6c3ae3b351cf8b4b8f1c12cc76d86cc4e461e28ce9b99b6f18e902ab507939
     icon: https://gemalto.github.io/miniapps/icons/cassandra.png
     keywords:
     - cassandra
@@ -20,14 +20,14 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/cassandra
     urls:
-    - https://jurocknsail.github.io/miniapps/cassandra-1.0.0+build.8.tgz
-    version: 1.0.0+build.8
+    - https://jurocknsail.github.io/miniapps/cassandra-1.0.0+build.9.tgz
+    version: 1.0.0+build.9
   cilium:
   - appVersion: 1.1.0
-    created: 2018-11-21T18:03:38.481800079Z
+    created: 2018-11-21T18:16:33.759335874Z
     description: Cilium brings API-aware network security filtering to Linux container
       frameworks like Docker and Kubernetes.
-    digest: 5976a4af0fdd15dd8227a2921ca19758a9eaabbc149888712d88f71a2d89fdf7
+    digest: afc3da225d71492b13d1cd233af1e2eed469df98e33e9417d9aa9ee04a8801bb
     icon: https://gemalto.github.io/miniapps/icons/cilium.png
     keywords:
     - cilium
@@ -41,13 +41,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/cilium
     urls:
-    - https://jurocknsail.github.io/miniapps/cilium-1.0.0+build.8.tgz
-    version: 1.0.0+build.8
+    - https://jurocknsail.github.io/miniapps/cilium-1.0.0+build.9.tgz
+    version: 1.0.0+build.9
   grafana:
   - appVersion: 5.0.0
-    created: 2018-11-21T18:03:38.489040987Z
+    created: 2018-11-21T18:16:33.765712423Z
     description: The open platform for beautiful analytics and monitoring
-    digest: e86b6ea824c3ff6c5155030e0febfc0c7c6aa6d6a8b3dd3d81d63412d202a965
+    digest: d0df7db02933692c95e79ec30415c9bcea5b7d26f98dd674945b751e04ccab6b
     icon: https://gemalto.github.io/miniapps/icons/grafana.png
     keywords:
     - grafana
@@ -62,13 +62,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/grafana
     urls:
-    - https://jurocknsail.github.io/miniapps/grafana-1.0.0+build.8.tgz
-    version: 1.0.0+build.8
+    - https://jurocknsail.github.io/miniapps/grafana-1.0.0+build.9.tgz
+    version: 1.0.0+build.9
   heapster:
   - appVersion: 1.3.0
-    created: 2018-11-21T18:03:38.489404594Z
+    created: 2018-11-21T18:16:33.766048104Z
     description: Heapster enables Container Cluster Monitoring and Performance Analysis.
-    digest: aaf0948c7ce2fbc5bbe3198ab2fad393183a6c12dd92f230947e04777b20794d
+    digest: 37139e871c28f4cf1a739f9cc3e19daa467a122ee8318cb24d7e87aa3c5a06a7
     icon: https://gemalto.github.io/miniapps/icons/heapster.png
     keywords:
     - heapster
@@ -83,13 +83,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/heapster
     urls:
-    - https://jurocknsail.github.io/miniapps/heapster-1.0.0+build.8.tgz
-    version: 1.0.0+build.8
+    - https://jurocknsail.github.io/miniapps/heapster-1.0.0+build.9.tgz
+    version: 1.0.0+build.9
   kibana:
   - appVersion: 6.2.4
-    created: 2018-11-21T18:03:38.490006504Z
+    created: 2018-11-21T18:16:33.766742393Z
     description: Kibana is an open source data visualization plugin for Elasticsearch.
-    digest: 782ffebdf1aa86680f655527147e264abc1794bf69e24aaf2ca3becb1d7ad077
+    digest: f0305f0f37d86cc10117c739232d29592f1b2010f81572fc7f73c7d8bd6c9b27
     icon: https://gemalto.github.io/miniapps/icons/kibana.png
     keywords:
     - kibana
@@ -104,13 +104,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/kibana
     urls:
-    - https://jurocknsail.github.io/miniapps/kibana-1.0.0+build.8.tgz
-    version: 1.0.0+build.8
+    - https://jurocknsail.github.io/miniapps/kibana-1.0.0+build.9.tgz
+    version: 1.0.0+build.9
   mysql:
   - appVersion: "5.7"
-    created: 2018-11-21T18:03:38.49029516Z
+    created: 2018-11-21T18:16:33.767015999Z
     description: The world's most popular open source database
-    digest: 1684aa2d88168710b9146dec9032cf06226c6fd9c47625ed26aaab9a20129ecf
+    digest: d24335c614742a68b602a7ec6b3bea08a0fa0beeac87c94626f6ee2aa4e1a4bb
     icon: https://gemalto.github.io/miniapps/icons/mysql.png
     keywords:
     - mysql
@@ -124,13 +124,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/mysql
     urls:
-    - https://jurocknsail.github.io/miniapps/mysql-1.0.0+build.8.tgz
-    version: 1.0.0+build.8
+    - https://jurocknsail.github.io/miniapps/mysql-1.0.0+build.9.tgz
+    version: 1.0.0+build.9
   pact-broker:
   - appVersion: 2.23.3-1
-    created: 2018-11-21T18:03:38.49062324Z
+    created: 2018-11-21T18:16:33.767349Z
     description: Pact Broker chart for developers.
-    digest: 7a872d845a1b899d0a735464eeb31c58a919300ca1313e09e25f556c1a963906
+    digest: 1faf334a0b9a10ff09e00ceb3cccb81af323e9e3f8b524090323a568a92ea7c9
     icon: https://gemalto.github.io/miniapps/icons/pact-broker.png
     keywords:
     - pact broker
@@ -146,6 +146,6 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/pact-broker
     urls:
-    - https://jurocknsail.github.io/miniapps/pact-broker-1.0.0+build.8.tgz
-    version: 1.0.0+build.8
-generated: 2018-11-21T18:03:38.480901519Z
+    - https://jurocknsail.github.io/miniapps/pact-broker-1.0.0+build.9.tgz
+    version: 1.0.0+build.9
+generated: 2018-11-21T18:16:33.757896778Z
