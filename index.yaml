@@ -1,12 +1,25 @@
 apiVersion: v1
 entries:
+  any-proxy:
+  - appVersion: 1.0.1
+    created: 2019-02-04T08:58:16.112915885Z
+    description: Manage proxy connections for applications that can't handle it
+    digest: 08267c890c08978fa7237f6db72d2c1e8c4440aa9c7c5436443709a831668817
+    keywords:
+    - go-any-proxy
+    name: any-proxy
+    sources:
+    - https://github.com/ryanchapman/go-any-proxy
+    urls:
+    - https://jurocknsail.github.io/miniapps/any-proxy-1.0.0+build.21.tgz
+    version: 1.0.0+build.21
   cassandra:
   - appVersion: 3.11.2
-    created: 2018-11-22T10:17:56.540611976Z
+    created: 2019-02-04T08:58:16.113580564Z
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure.
-    digest: c777202f06bfd4b73e0257cf0bd804e947ccdc8d28620d57b2f926546bfe264c
+    digest: 1ca7500753ebeffd00f0b8cca518943e5e54c1722da2c493bd0f6965975be62c
     icon: https://gemalto.github.io/miniapps/icons/cassandra.png
     keywords:
     - cassandra
@@ -20,14 +33,14 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/cassandra
     urls:
-    - https://jurocknsail.github.io/miniapps/cassandra-1.0.0+build.18.tgz
-    version: 1.0.0+build.18
+    - https://jurocknsail.github.io/miniapps/cassandra-1.0.0+build.21.tgz
+    version: 1.0.0+build.21
   cilium:
   - appVersion: 1.1.0
-    created: 2018-11-22T10:17:56.541677391Z
+    created: 2019-02-04T08:58:16.114397693Z
     description: Cilium brings API-aware network security filtering to Linux container
       frameworks like Docker and Kubernetes.
-    digest: c2b3063412a2b95d0406fe269f782731cd965158672cddc5a60468d126336ac5
+    digest: e42928054991b64859e35aa9ae95adfe216e9d547ef0b4ba25482f23adf73a17
     icon: https://gemalto.github.io/miniapps/icons/cilium.png
     keywords:
     - cilium
@@ -41,13 +54,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/cilium
     urls:
-    - https://jurocknsail.github.io/miniapps/cilium-1.0.0+build.18.tgz
-    version: 1.0.0+build.18
+    - https://jurocknsail.github.io/miniapps/cilium-1.0.0+build.21.tgz
+    version: 1.0.0+build.21
   grafana:
   - appVersion: 5.0.0
-    created: 2018-11-22T10:17:56.5480865Z
+    created: 2019-02-04T08:58:16.119608758Z
     description: The open platform for beautiful analytics and monitoring
-    digest: d2c960d69cc85ed54ebadb13cf018de3cfe61dae4c18fd222d8cf5836569b3b2
+    digest: d57f523a02b78e49c6a6f5cda1c8cec6e9ffe277d731ff97541720ec780b988b
     icon: https://gemalto.github.io/miniapps/icons/grafana.png
     keywords:
     - grafana
@@ -62,13 +75,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/grafana
     urls:
-    - https://jurocknsail.github.io/miniapps/grafana-1.0.0+build.18.tgz
-    version: 1.0.0+build.18
+    - https://jurocknsail.github.io/miniapps/grafana-1.0.0+build.21.tgz
+    version: 1.0.0+build.21
   heapster:
   - appVersion: 1.3.0
-    created: 2018-11-22T10:17:56.54844787Z
+    created: 2019-02-04T08:58:16.119952561Z
     description: Heapster enables Container Cluster Monitoring and Performance Analysis.
-    digest: 6110fdc5d1aea24173500d9c55f9dc8a288c9fe1aaac848c7187c4bd8c00656d
+    digest: 991d56f8b13eb7ebf4f519d64b71fe81d50ff50add06f865aadd1baf8f43dd61
     icon: https://gemalto.github.io/miniapps/icons/heapster.png
     keywords:
     - heapster
@@ -83,13 +96,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/heapster
     urls:
-    - https://jurocknsail.github.io/miniapps/heapster-1.0.0+build.18.tgz
-    version: 1.0.0+build.18
+    - https://jurocknsail.github.io/miniapps/heapster-1.0.0+build.21.tgz
+    version: 1.0.0+build.21
   kibana:
   - appVersion: 6.2.4
-    created: 2018-11-22T10:17:56.549078484Z
+    created: 2019-02-04T08:58:16.120509204Z
     description: Kibana is an open source data visualization plugin for Elasticsearch.
-    digest: a0d1eb7a1ae368ac58bf4941f5be6c757f1e71a019e5edd4687f2d24f9e7aa31
+    digest: 52c6379b18b0460ba3c49bad196f08d06194121103208127fd63c83999db3a3a
     icon: https://gemalto.github.io/miniapps/icons/kibana.png
     keywords:
     - kibana
@@ -104,13 +117,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/kibana
     urls:
-    - https://jurocknsail.github.io/miniapps/kibana-1.0.0+build.18.tgz
-    version: 1.0.0+build.18
+    - https://jurocknsail.github.io/miniapps/kibana-1.0.0+build.21.tgz
+    version: 1.0.0+build.21
   mysql:
   - appVersion: "5.7"
-    created: 2018-11-22T10:17:56.549397404Z
+    created: 2019-02-04T08:58:16.120779211Z
     description: The world's most popular open source database
-    digest: f163300280e556746b75305da2f58c6029bb5b4aa141d5a65166e017bf796ffa
+    digest: 17702602b4a4436cc083cfaf95371f700134fb55142d9417843993191d6fd450
     icon: https://gemalto.github.io/miniapps/icons/mysql.png
     keywords:
     - mysql
@@ -124,13 +137,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/mysql
     urls:
-    - https://jurocknsail.github.io/miniapps/mysql-1.0.0+build.18.tgz
-    version: 1.0.0+build.18
+    - https://jurocknsail.github.io/miniapps/mysql-1.0.0+build.21.tgz
+    version: 1.0.0+build.21
   pact-broker:
   - appVersion: 2.23.3-1
-    created: 2018-11-22T10:17:56.549736317Z
+    created: 2019-02-04T08:58:16.121115508Z
     description: Pact Broker chart for developers.
-    digest: 7f9bab2d6c6df539724f01b679010cc91703a9d01d83ecfa87db6023a8bcf8c0
+    digest: f6483c5b7f069ed80137621b6d64b468b2d13bd9209fe23ba66eb92bfb78dce3
     icon: https://gemalto.github.io/miniapps/icons/pact-broker.png
     keywords:
     - pact broker
@@ -146,6 +159,6 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/pact-broker
     urls:
-    - https://jurocknsail.github.io/miniapps/pact-broker-1.0.0+build.18.tgz
-    version: 1.0.0+build.18
-generated: 2018-11-22T10:17:56.540009132Z
+    - https://jurocknsail.github.io/miniapps/pact-broker-1.0.0+build.21.tgz
+    version: 1.0.0+build.21
+generated: 2019-02-04T08:58:16.111912433Z
